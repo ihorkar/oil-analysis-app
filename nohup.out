@@ -1,0 +1,88 @@
+
+> vuexy-vuejs-admin-template@9.0.1 start
+> vite
+
+
+  VITE v4.5.0  ready in 3494 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://172.31.26.204:5173/
+
+> vuexy-vuejs-admin-template@9.0.1 start
+> vite
+
+
+  VITE v4.5.0  ready in 3950 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://172.31.26.204:5173/
+(node:2033) Warning: An error event has already been emitted on the socket. Please use the destroy method on the socket while handling a 'clientError' event.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+> vuexy-vuejs-admin-template@9.0.1 start
+> vite
+
+
+  VITE v4.5.0  ready in 3805 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://172.31.26.204:5173/
+(node:2014) Warning: An error event has already been emitted on the socket. Please use the destroy method on the socket while handling a 'clientError' event.
+(Use `node --trace-warnings ...` to show where the warning was created)
+10:24:30 AM [vite] .env changed, restarting server...
+10:24:31 AM [vite] server restarted.
+
+> vuexy-vuejs-admin-template@9.0.1 start
+> vite
+
+
+  VITE v4.5.0  ready in 3802 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://172.31.26.204:5173/
+11:41:12 AM [vite] .env changed, restarting server...
+11:41:14 AM [vite] server restarted.
+
+> vuexy-vuejs-admin-template@9.0.1 start
+> vite
+
+
+  VITE v4.5.0  ready in 4315 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://172.31.26.204:5173/
+(node:2318) Warning: An error event has already been emitted on the socket. Please use the destroy method on the socket while handling a 'clientError' event.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+> vuexy-vuejs-admin-template@9.0.1 start
+> vite
+
+
+  VITE v4.5.0  ready in 3963 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://172.31.26.204:5173/
+1:32:49 PM [vite] .env changed, restarting server...
+1:32:50 PM [vite] server restarted.
+1:46:19 PM [vite] .env changed, restarting server...
+1:46:21 PM [vite] server restarted.
+1:50:16 PM [vite] .env changed, restarting server...
+1:50:17 PM [vite] server restarted.
+
+> vuexy-vuejs-admin-template@9.0.1 start
+> vite
+
+
+  VITE v4.5.0  ready in 4152 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://172.31.26.204:5173/
+
+> vuexy-vuejs-admin-template@9.0.1 start
+> vite
+
+
+  VITE v4.5.0  ready in 4117 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://172.31.26.204:5173/

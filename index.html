@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oil Analysis App</title>
+    <link rel="stylesheet" type="text/css" href="/loader.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div id="loading-bg">
+        <div class="loading-logo">
+          <svg width="36" height="46" viewBox="0 0 35.49 45.02">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: #eaaa00;
+                  stroke-width: 0px;
+                }
+              </style>
+            </defs>
+            <path
+              class="cls-1"
+              d="M32.92,32.98c1.61-1.96,2.54-4.38,2.57-6.96.06-5.67-8.75-17.27-8.75-17.27-.88-1.09-2.67-1.14-3.64.05-.2.27-.69.94-1.33,1.85-2-3.35-4.15-6.64-6.48-9.83-.89-1.09-2.67-1.14-3.64.06C10.46,2.5,0,16.86,0,23.61c0,3.6,1.41,6.99,3.96,9.54,2.35,2.34,5.41,3.7,8.69,3.91.66,1.47,1.59,2.83,2.76,4.01,2.52,2.52,5.87,3.93,9.44,3.96,1.04,0,2.01-.61,2.29-1.62.24-.85.01-1.7-.58-2.29-.43-.43-1-.67-1.62-.67-1.43,0-2.86-.3-4.11-.98-3.05-1.67-4.8-4.67-4.8-7.93,0-3.32,4.55-11.07,8.92-17.4,0,0,5.01,7.83,5.54,9.29.89,2.44.51,5.23-1.21,7.14-1.27,1.22-3.28,1.32-4.65.16,0,0-.01,0-.02-.01-.2-.29-.35-.63-.35-1.01,0-1,.82-1.82,1.82-1.82,1.2,0,2.17-.97,2.17-2.17s-.97-2.17-2.17-2.17c-3.4,0-6.16,2.76-6.16,6.16s2.76,6.16,6.16,6.16c.08,0,.16-.02.24-.02.18.01.36.05.55.05,1.71,0,3.4-.57,4.8-1.65.09-.06.19-.1.27-.18.27-.26.52-.52.76-.8.05-.05.1-.08.14-.14.04-.04.05-.09.08-.14M11.45,31.53c0,.25.02.49.04.74-1.61-.37-3.1-1.17-4.29-2.36-1.68-1.68-2.61-3.92-2.62-6.3,0-3.32,4.56-11.07,8.92-17.4,1.93,2.8,3.74,5.72,5.43,8.68-3.36,5.2-7.47,12.42-7.47,16.65"
+            />
+          </svg>
+        </div>
+        <div class="loading">
+          <div class="effect-1 effects"></div>
+          <div class="effect-2 effects"></div>
+          <div class="effect-3 effects"></div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+    <script>
+      const loaderColor =
+        localStorage.getItem("vuexy-initial-loader-bg") || "#FFFFFF";
+      const primaryColor =
+        localStorage.getItem("vuexy-initial-loader-color") || "#eaaa00";
+
+      if (loaderColor)
+        document.documentElement.style.setProperty(
+          "--initial-loader-bg",
+          loaderColor
+        );
+
+      if (primaryColor)
+        document.documentElement.style.setProperty(
+          "--initial-loader-color",
+          primaryColor
+        );
+    </script>
+  </body>
+</html>
